@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Inject Death",
+  "description": "Experiment to inject a script using a Chrome extension",
+  "version": "0.1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "activeTab"
+  ]
+}
